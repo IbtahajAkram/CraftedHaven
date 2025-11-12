@@ -127,7 +127,7 @@ export default function WishlistPage() {
                 }`}
               >
                 <Image
-                  src={product.image || "/placeholder.svg"}
+                  src={product.images[0] || "/placeholder.svg"}
                   alt={product.name}
                   width={400}
                   height={400}
